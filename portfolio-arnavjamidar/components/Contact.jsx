@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-slate-400">Email</p>
-                  <p className="text-lg font-medium text-slate-900 group-hover:text-amber-600 transition-colors">your.email@york.ac.uk</p>
+                  <p className="text-lg font-medium text-slate-900 group-hover:text-amber-600 transition-colors">jamidararnav@gmail.com</p>
                 </div>
               </a>
 
@@ -91,7 +91,7 @@ export default function Contact() {
           {/* RIGHT COLUMN: The Form */}
           <motion.div variants={itemVariants} className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
             {/* Formspree is the easiest way to make this form functional for free! */}
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="flex flex-col gap-6">
+            <form action="https://formspree.io/f/mvzbvvrq" method="POST" className="flex flex-col gap-6">
               
               <div className="flex flex-col gap-2">
                 <label htmlFor="name" className="text-sm font-medium text-slate-700">Your Name</label>
@@ -112,7 +112,7 @@ export default function Contact() {
                   name="email" 
                   id="email" 
                   required
-                  placeholder="john@example.com"
+                  placeholder="youremail@example.com"
                   className="px-4 py-3 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-colors"
                 />
               </div>
