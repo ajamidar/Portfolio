@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center justify-center px-6 pt-32 md:pt-10 lg:pt-0 pb-20 bg-slate-50 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center px-6 pt-32 md:pt-10 lg:pt-0 pb-0 bg-slate-50 overflow-hidden"
     >
       {/* Subtle background glow effect */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[500px] bg-rose-100/40 rounded-full blur-3xl -z-10 pointer-events-none"></div>

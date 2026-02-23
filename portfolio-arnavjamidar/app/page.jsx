@@ -8,12 +8,12 @@ import Contact from '../components/Contact';
 export default function Home() {
   return (
     <main className="bg-slate-50 text-slate-900 min-h-screen">
-      <Navbar />
-       <Hero /> 
-      {/* <Journey /> */}
-      {/* <TechStack /> */}
-      {/* <Projects /> */}
-      {/* <Contact /> */}      
+        <Navbar />
+        <Hero /> 
+        <Projects />
+        <TechStack />
+        <Journey /> 
+        <Contact />  
     </main>
   );
 }

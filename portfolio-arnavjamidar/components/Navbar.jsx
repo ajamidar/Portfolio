@@ -6,10 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Moon, ArrowUpRight, Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { id: 'projects', label: 'Projects', href: '#projects' },
-  { id: 'tech', label: 'Tech Stack', href: '#tech' },
-  { id: 'journey', label: 'Journey', href: '#journey' },
-  { id: 'contact', label: 'Contact', href: '#contact' },
+  { id: 'projects', label: 'Projects', href: '/#projects' },
+  { id: 'tech', label: 'Tech Stack', href: '/#tech' },
+  { id: 'journey', label: 'Journey', href: '/#journey' },
+  { id: 'contact', label: 'Contact', href: '/#contact' },
 ];
 
 export default function Navbar() {
@@ -22,9 +22,9 @@ export default function Navbar() {
         
         {/* 1. Left Section: Logo / Name */}
         <div className="text-2xl font-serif font-bold tracking-tight text-gray-900 z-50">
-          <Link href="/">
+          <a href="/#home">
             Arnav<span className="text-amber-600">'</span>s Portfolio
-          </Link>
+          </a>
         </div>
 
         {/* 2. Center Section: Desktop Floating Pill (Hidden on Mobile) */}
@@ -34,7 +34,7 @@ export default function Navbar() {
             onMouseLeave={() => setHoveredLink(null)}
           >
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.id}
                 href={link.href}
                 onMouseEnter={() => setHoveredLink(link.id)}
@@ -52,7 +52,7 @@ export default function Navbar() {
                   />
                 )}
                 {link.label}
-              </Link>
+              </a>
             ))}
           </div>
         </div>
@@ -61,13 +61,13 @@ export default function Navbar() {
         <div className="flex items-center gap-3 z-50">
           
           {/* Desktop Contact Button */}
-          <Link 
+          <a 
             href="#cv" 
             className="hidden md:flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-gray-900 transition-all border border-gray-300 rounded-full hover:bg-[#fafafa8d] 
             hover:shadow-md hover:text-gray-900 hover:transition-transform hover:duration-100"
           >
             View CV <ArrowUpRight size={16} strokeWidth={1.5} />
-          </Link>
+          </a>
 
           {/* Mobile Hamburger Toggle */}
           <button 
@@ -101,13 +101,13 @@ export default function Navbar() {
                 </Link>
               ))}
               <hr className="border-gray-100" />
-              <Link 
+              <a 
                 href="#cv" 
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="flex items-center justify-center gap-2 px-5 py-3 text-sm font-medium text-white transition-all bg-gray-900 rounded-full hover:bg-[#ffc09358] hover:text-gray-900 hover:transition-transform hover:duration-100"
               >
                 View CV<ArrowUpRight size={16} strokeWidth={1.5} />
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}
