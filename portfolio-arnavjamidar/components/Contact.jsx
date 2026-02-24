@@ -46,7 +46,7 @@ export default function Contact() {
             <h3 className="text-2xl font-bold text-slate-900 mb-6">Contact Information</h3>
             
             <div className="space-y-6 mb-8">
-              <a href="mailto:your.email@york.ac.uk" className="flex items-center gap-4 text-slate-600 hover:text-amber-600 transition-colors group">
+              <a href="mailto:jamidararnav@gmail.com" className="flex items-center gap-4 text-slate-600 hover:text-amber-600 transition-colors group">
                 <div className="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center group-hover:bg-amber-50 transition-colors">
                   <Mail size={24} />
                 </div>
@@ -70,7 +70,7 @@ export default function Contact() {
             <h3 className="text-xl font-bold text-slate-900 mb-4 mt-4">Socials</h3>
             <div className="flex gap-4">
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/arnavjamidar" 
                 target="_blank" 
                 rel="noreferrer"
                 className="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center text-slate-600 hover:bg-slate-900 hover:text-white transition-all hover:scale-105"
@@ -78,7 +78,7 @@ export default function Contact() {
                 <Github size={24} />
               </a>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/arnav-jamidar-569b89374/" 
                 target="_blank" 
                 rel="noreferrer"
                 className="w-12 h-12 bg-slate-50 rounded-full flex items-center justify-center text-slate-600 hover:bg-[#0A66C2] hover:text-white transition-all hover:scale-105"
@@ -90,7 +90,6 @@ export default function Contact() {
 
           {/* RIGHT COLUMN: The Form */}
           <motion.div variants={itemVariants} className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
-            {/* Formspree is the easiest way to make this form functional for free! */}
             <form action="https://formspree.io/f/mvzbvvrq" method="POST" className="flex flex-col gap-6">
               
               <div className="flex flex-col gap-2">
