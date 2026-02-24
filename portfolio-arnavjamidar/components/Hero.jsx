@@ -63,10 +63,10 @@ export default function Hero() {
 
           {/* Social Links */}
           <motion.div variants={fadeUpVariants} className="flex items-center justify-center md:justify-start gap-5 text-slate-500">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 transition-colors">
+            <a href="https://github.com/ajamidar" target="_blank" rel="noopener noreferrer" className="hover:text-slate-900 transition-colors">
               <Github size={22} strokeWidth={1.5} />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
+            <a href="https://www.linkedin.com/in/arnav-jamidar-569b89374/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
               <Linkedin size={22} strokeWidth={1.5} />
             </a>
             <a href="mailto:jamidararnav@gmail.com" className="hover:text-rose-500 transition-colors">

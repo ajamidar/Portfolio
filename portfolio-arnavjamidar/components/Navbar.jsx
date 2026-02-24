@@ -62,7 +62,9 @@ export default function Navbar() {
           
           {/* Desktop Contact Button */}
           <a 
-            href="#cv" 
+            href="/Arnav%20Jamidar%20CV%20-%2024.02.2026.pdf" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-gray-900 transition-all border border-gray-300 rounded-full hover:bg-[#fafafa8d] 
             hover:shadow-md hover:text-gray-900 hover:transition-transform hover:duration-100"
           >
@@ -102,7 +104,9 @@ export default function Navbar() {
               ))}
               <hr className="border-gray-100" />
               <a 
-                href="#cv" 
+                href="/Arnav%20Jamidar%20CV%20-%2024.02.2026.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="flex items-center justify-center gap-2 px-5 py-3 text-sm font-medium text-white transition-all bg-gray-900 rounded-full hover:bg-[#ffc09358] hover:text-gray-900 hover:transition-transform hover:duration-100"
               >

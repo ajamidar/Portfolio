@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
-import { Code2, GraduationCap, Laptop, Rocket } from 'lucide-react';
+import { Code2, Forklift, Gamepad, GraduationCap, Laptop, Laptop2, Rocket, Volleyball } from 'lucide-react';
 
 // --- YOUR JOURNEY DATA ---
 const journeyData = [
@@ -10,48 +10,48 @@ const journeyData = [
     id: 1,
     year: "2022",
     title: "The Spark",
-    description: "Wrote my very first lines of code. Discovered a deep passion for logical problem-solving and decided to fully commit to software engineering.",
+    description: "Wrote my very first lines of code. Discovered a deep passion for logical problem-solving and decided to dive deeper into computer science.",
     icon: <Code2 size={24} className="text-amber-600" />,
     align: "left"
   },
   {
     id: 2,
-    year: "2023",
-    title: "University of York",
-    description: "Started my MEng in Computer Science. Built a strong foundation in data structures, algorithms, and systems architecture.",
-    icon: <GraduationCap size={24} className="text-amber-600" />,
+    year: "2023-2024",
+    title: "FitMetrix",
+    description: "Built my first coding project - a python program with a GUI that acts as an all-in-one fitness tracker. Gained hands-on experience with Python, Tkinter, and database management.",
+    icon: <Laptop size={24} className="text-amber-600" />,
     align: "right"
   },
   {
     id: 3,
     year: "2024",
-    title: "Building & Expanding",
-    description: "Began developing full-stack web applications. Participated in hackathons, expanded my tech stack to include React and Next.js, and built my first APIs.",
-    icon: <Laptop size={24} className="text-amber-600" />,
+    title: "University of York",
+    description: "Started my MEng Computer Science degree at the University of York. Excited to learn from world-class professors and collaborate with talented peers on innovative projects.",
+    icon: <GraduationCap size={24} className="text-amber-600" />,
     align: "left"
   },
   {
     id: 4,
-    year: "2026",
-    title: "Looking Ahead",
-    description: "Currently seeking Summer 2026 software engineering internships to apply my academic knowledge to scalable, real-world systems.",
+    year: "2025 Summer",
+    title: "PrepIt",
+    description: "Built PrepIt, a web application that helps students prepare for job interviews. Gained experience with Next.js, API integration, and Firebase while solving real-world problems.",
     icon: <Rocket size={24} className="text-amber-600" />,
     align: "right"
   },
   {
     id: 5,
-    year: "2026",
-    title: "Looking Ahead",
-    description: "Currently seeking Summer 2026 software engineering internships to apply my academic knowledge to scalable, real-world systems.",
-    icon: <Rocket size={24} className="text-amber-600" />,
+    year: "2025 Autumn",
+    title: "PremStats",
+    description: "Built PremStats, a Java-based Spring Boot application that provides rich access to Premier League player and team statistics. Gained experience with PostgreSQL, Python scraping pipelines, and enterprise-grade backend systems.",
+    icon: <Volleyball size={24} className="text-amber-600" />,
     align: "left"
   },
   {
     id: 6,
     year: "2026",
-    title: "Looking Ahead",
-    description: "Currently seeking Summer 2026 software engineering internships to apply my academic knowledge to scalable, real-world systems.",
-    icon: <Rocket size={24} className="text-amber-600" />,
+    title: "GreenLink Logistics",
+    description: "Built GreenLink Logistics, a full-stack logistics platform that solves the Vehicle Routing Problem (VRP) using a hybrid Java/Python backend architecture with a Next.js frontend. Gained experience with real-time tracking, secure authentication, and scalable backend systems.",
+    icon: <Forklift size={24} className="text-amber-600" />,
     align: "right"
   },
   {
@@ -59,7 +59,7 @@ const journeyData = [
     year: "2026",
     title: "Looking Ahead",
     description: "Currently seeking Summer 2026 software engineering internships to apply my academic knowledge to scalable, real-world systems.",
-    icon: <Rocket size={24} className="text-amber-600" />,
+    icon: <Laptop2 size={24} className="text-amber-600" />,
     align: "left"
   }
 ];

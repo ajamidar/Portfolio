@@ -9,57 +9,56 @@ import { Github, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 const projectsData = [
   {
     id: 1,
-    title: "Project Alpha: E-Commerce API",
-    description: "A robust backend system for an e-commerce platform, handling user authentication, inventory management, and secure payment processing.",
-    tech: ["Node.js", "Express", "PostgreSQL", "Docker"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "PrepIt: AI-Powered Job Interview Preparation Platform",
+    description: "An AI-powered platform designed to help you prepare for job interviews using voice AI agents, real-time feedback, and a modern user experience. Built with a cutting-edge tech stack, PrepIt makes interview practice seamless, personalized, and effective.",
+    tech: ["TypeScript", "Next.js", "Tailwind CSS", "Firebase", "Gemini API", "Vapi AI API"],
+    github: "https://github.com/ajamidar/PrepIt",
+    live: "https://prep-it-zeta.vercel.app/",
     images: [
-      "https://placehold.co/600x400/1e293b/ffffff?text=Screenshot+1",
-      "https://placehold.co/600x400/334155/ffffff?text=Screenshot+2",
-      "https://placehold.co/600x400/475569/ffffff?text=Screenshot+3",
-      "https://placehold.co/600x400/64748b/ffffff?text=Screenshot+4",
+      "/prepit-1.png",
+      "/prepit-2.png",
+      "/prepit-3.png",
+      "/prepit-4.png",
     ]
   },
   {
     id: 2,
-    title: "TaskMaster Pro",
-    description: "A full-stack productivity web application allowing users to organize daily tasks, set priorities, and track progress with interactive charts.",
-    tech: ["React", "Next.js", "Tailwind CSS", "MongoDB"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "GreenLink Logistics: Intelligent Logistics & Route Optimization Platform",
+    description: "An enterprise-grade, full-stack logistics platform designed to solve the Vehicle Routing Problem (VRP) using a hybrid Java/Python architecture. It empowers businesses to optimize delivery routes, track drivers in real-time, and manage orders through a secure, modern dashboard.",
+    tech: ["TypeScript", "Next.js", "Tailwind CSS", "Java 17", "Python", "Leaflet", "Spring Boot", "PostgreSQL", "AWS(EC2)", "Docker", "REST APIs"],
+    github: "https://github.com/ajamidar/GreenLink-Logistics",
+    live: "https://www.youtube.com/watch?v=N4sF84_3fSA&feature=youtu.be",
     images: [
-      "https://placehold.co/600x400/0f172a/ffffff?text=App+View+1",
-      "https://placehold.co/600x400/1e293b/ffffff?text=App+View+2",
-      "https://placehold.co/600x400/334155/ffffff?text=App+View+3",
+      "/greenlink-1.png",
+      "/greenlink-2.png",
+      "/greenlink-3.png",
     ]
   },
   {
     id: 3,
-    title: "Algorithm Visualizer",
-    description: "An interactive educational tool that visualizes common sorting and pathfinding algorithms to help Computer Science students learn.",
-    tech: ["JavaScript", "HTML5 Canvas", "CSS3"],
-    github: "https://github.com",
-    live: "", // Leave empty if there is no live demo
+    title: "PremStats - Premier League StatFinder",
+    description: "A Java-based Spring Boot application backed by PostgreSQL, designed to give football analysts, fans, and developers rich access to Premier League player and team statistics. The system ingests real-time-esque scraped data via a Python scraping pipeline, normalizes it into CSV, and persists it for fast, filterable querying",
+    tech: ["Java 17", "Spring Boot", "PostgreSQL", "Python", "BeautifulSoup", "pandas"],
+    github: "https://github.com/ajamidar/PremStats",
+    live: "https://www.youtube.com/watch?v=HKyv-CQXnxA&feature=youtu.be",
     images: [
-      "https://placehold.co/600x400/020617/ffffff?text=Sorting+Alg",
-      "https://placehold.co/600x400/0f172a/ffffff?text=Pathfinding",
-      "https://placehold.co/600x400/1e293b/ffffff?text=Graph+View",
-      "https://placehold.co/600x400/334155/ffffff?text=Code+Snippet",
+      "/premstats-1.png",
+      "/premstats-2.png",
+      "/premstats-3.png",
+      "/premstats-4.png",
     ]
   },
   {
     id: 4,
-    title: "Weather Dashboard App",
-    description: "A responsive weather application that fetches real-time meteorological data using third-party APIs and displays interactive forecasts.",
-    tech: ["React", "REST APIs", "Framer Motion", "Vercel"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "FitMetrix - All-in-One Fitness Tracker",
+    description: "A comprehensive fitness tracking application designed to help users manage and monitor their health journey. With secure authentication, personalized workout and diet plans, and visual progress tracking, FitMetrix offers a powerful, user-friendly solution to support fitness goals.",
+    tech: ["Python", "MySQL", "SQLite3", "Tkinter", "Matplotlib"],
+    github: "https://github.com/ajamidar/FitMetrix",
+    live: "/FINAL NEA DOCUMENTATION.pdf",
     images: [
-      "https://placehold.co/600x400/1e1b4b/ffffff?text=Dashboard",
-      "https://placehold.co/600x400/312e81/ffffff?text=Weekly+Forecast",
-      "https://placehold.co/600x400/4338ca/ffffff?text=Radar+Map",
-      "https://placehold.co/600x400/4f46e5/ffffff?text=Settings",
+      "/fitmetrix-1.png",
+      "/fitmetrix-2.png",
+      "/fitmetrix-3.png",
     ]
   }
 ];
@@ -89,7 +88,7 @@ const ImageCarousel = ({ images }) => {
             key={index} 
             src={src} 
             alt={`Screenshot ${index + 1}`} 
-            className="object-cover w-full h-full shrink-0"
+            className="object-contain w-full h-full shrink-0"
           />
         ))}
       </div>
