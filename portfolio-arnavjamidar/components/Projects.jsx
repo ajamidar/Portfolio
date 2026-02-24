@@ -140,7 +140,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="scroll-mt-24 py-0 px-6 bg-white min-h-screen flex flex-col justify-center">
+    <section id="projects" className="scroll-mt-24 py-0 px-6 bg-slate-50 min-h-screen flex flex-col justify-center">
       <div className="max-w-6xl mx-auto w-full">
         
         {/* Section Header */}

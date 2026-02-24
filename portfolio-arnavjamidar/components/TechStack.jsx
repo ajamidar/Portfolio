@@ -75,7 +75,7 @@ export default function TechStack() {
   };
 
   return (
-    <section id='tech' className="min-h-screen py-32 px-6 flex flex-col items-center justify-center">
+    <section id='tech' className="min-h-screen py-32 px-6 flex bg-slate-50 flex-col items-center justify-center">
       <div className="max-w-5xl mx-auto w-full">
         
         {/* Header */}
