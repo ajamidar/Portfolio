@@ -52,7 +52,7 @@ export default function Hero() {
             </Link>
             
             <a 
-              href="/resume.pdf"
+              href="/Arnav Jamidar CV - 24.02.2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-7 py-3 text-sm font-medium text-slate-700 transition-colors bg-white border border-slate-200 rounded-full hover:bg-slate-50 hover:border-slate-300"
