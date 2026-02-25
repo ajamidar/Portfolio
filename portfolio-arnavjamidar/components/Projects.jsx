@@ -25,7 +25,7 @@ const projectsData = [
     id: 2,
     title: "GreenLink Logistics: Intelligent Logistics & Route Optimization Platform",
     description: "An enterprise-grade, full-stack logistics platform designed to solve the Vehicle Routing Problem (VRP) using a hybrid Java/Python architecture. It empowers businesses to optimize delivery routes, track drivers in real-time, and manage orders through a secure, modern dashboard.",
-    tech: ["TypeScript", "Next.js", "Tailwind CSS", "Java 17", "Python", "Leaflet", "Spring Boot", "PostgreSQL", "AWS(EC2)", "Docker", "REST APIs"],
+    tech: ["TypeScript", "Next.js", "Tailwind CSS", "Java 21", "Python", "Leaflet", "Spring Boot", "PostgreSQL", "AWS(EC2)", "Docker", "REST APIs"],
     github: "https://github.com/ajamidar/GreenLink-Logistics",
     live: "https://www.youtube.com/watch?v=N4sF84_3fSA&feature=youtu.be",
     images: [
