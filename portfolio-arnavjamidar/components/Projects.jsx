@@ -4,8 +4,6 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 
-// --- DUMMY DATA ---
-// Replace these with your actual 4 projects and image paths (store images in the /public folder)
 const projectsData = [
   {
     id: 1,
