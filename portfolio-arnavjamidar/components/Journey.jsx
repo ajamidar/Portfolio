@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
-import { Code2, Forklift, Gamepad, GraduationCap, Laptop, Laptop2, Rocket, Volleyball } from 'lucide-react';
+import { Code2, FileBraces, Forklift, Gamepad, GraduationCap, Laptop, Laptop2, Rocket, Volleyball } from 'lucide-react';
 
 // --- YOUR JOURNEY DATA ---
 const journeyData = [
@@ -57,10 +57,18 @@ const journeyData = [
   {
     id: 7,
     year: "2026",
+    title: "TutorFlow",
+    description: "Currently building TutorFlow, a web application that connects students with tutors for personalized learning. Efficiently manages tutor/student profiles, scheduling, assignment management, and secure invoicing. Applying my TypeScript, Next.js, and Supabase skills to create a seamless user experience.",
+    icon: <FileBraces size={24} className="text-amber-600" />,
+    align: "left"
+  },
+  {
+    id: 8,
+    year: "2026",
     title: "Looking Ahead",
     description: "Currently seeking Summer 2026 software engineering internships to apply my academic knowledge to scalable, real-world systems.",
     icon: <Laptop2 size={24} className="text-amber-600" />,
-    align: "left"
+    align: "right"
   }
 ];
 
