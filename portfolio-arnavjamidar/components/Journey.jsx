@@ -66,7 +66,7 @@ const journeyData = [
     id: 8,
     year: "2026",
     title: "Looking Ahead",
-    description: "Currently seeking Summer 2026 software engineering internships to apply my academic knowledge to scalable, real-world systems.",
+    description: "Currently seeking Summer 2026 software engineering internships to apply my academic knowledge to scalable, real-world systems. Also actively learning foundations of machine learning and AI to stay at the forefront of technology.",
     icon: <Laptop2 size={24} className="text-amber-600" />,
     align: "right"
   }
