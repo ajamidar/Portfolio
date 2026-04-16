@@ -85,7 +85,7 @@ export default function Hero() {
           {/* Simple, clean image container with a soft shadow */}
           <div className="flex justify-center items-center w-45 h-45 md:w-80 md:h-80 lg:w-90 lg:h-90 hover:scale-105 transition-transform duration-300 rounded-full ">
             <img 
-              src="/arnav.jpeg" 
+              src="/arnav.png" 
               alt="Arnav Jamidar" 
               className="rounded-full"
               onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Arnav+Jamidar&background=f1f5f9&color=0f172a&size=512' }} 
