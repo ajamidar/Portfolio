@@ -12,17 +12,17 @@ export default function Hero() {
   };
 
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       className="relative min-h-screen flex items-center justify-center px-6 pt-32 md:pt-10 lg:pt-0 pb-20 md:pb-10 lg:pb-0 bg-slate-50 overflow-hidden"
     >
       {/* Subtle background glow effect */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[500px] bg-rose-100/40 rounded-full blur-3xl -z-10 pointer-events-none"></div>
 
       <div className="max-w-6xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-8">
-        
+
         {/* LEFT COLUMN: Text Content */}
-        <motion.div 
+        <motion.div
           className="flex-1 text-center md:text-left"
           variants={fadeUpVariants}
           initial="hidden"
@@ -40,18 +40,18 @@ export default function Hero() {
           </motion.h1>
 
           <motion.p variants={fadeUpVariants} className="max-w-lg mx-auto md:mx-0 text-amber-900 md:text-lg font-semibold mb-8 leading-relaxed">
-            I am a 2nd-year aspiring software engineer passionate about scalable applications and robust software systems.
+            I am a 3rd-year aspiring software engineer passionate about scalable applications and robust software systems.
           </motion.p>
 
           <motion.div variants={fadeUpVariants} className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mb-8">
-            <Link 
-              href="#projects" 
+            <Link
+              href="#projects"
               className="flex items-center gap-2 px-7 py-3 text-sm font-medium text-white transition-colors bg-slate-900 rounded-full hover:bg-slate-800"
             >
               View My Work <ArrowRight size={16} />
             </Link>
-            
-            <a 
+
+            <a
               href="/Arnav Jamidar CV - 24.02.2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -76,7 +76,7 @@ export default function Hero() {
         </motion.div>
 
         {/* RIGHT COLUMN: Standard Professional Image */}
-        <motion.div 
+        <motion.div
           className="flex-1 flex justify-center md:justify-end w-full max-w-sm md:max-w-none"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -84,11 +84,11 @@ export default function Hero() {
         >
           {/* Simple, clean image container with a soft shadow */}
           <div className="flex justify-center items-center w-45 h-45 md:w-80 md:h-80 lg:w-90 lg:h-90 hover:scale-105 transition-transform duration-300 rounded-full ">
-            <img 
-              src="/arnav.png" 
-              alt="Arnav Jamidar" 
+            <img
+              src="/arnav.png"
+              alt="Arnav Jamidar"
               className="rounded-full"
-              onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Arnav+Jamidar&background=f1f5f9&color=0f172a&size=512' }} 
+              onError={(e) => { e.target.src = 'https://ui-avatars.com/api/?name=Arnav+Jamidar&background=f1f5f9&color=0f172a&size=512' }}
             />
           </div>
         </motion.div>
